@@ -15,12 +15,19 @@ Add the below to Nova/User.php resource:
 ```php
 
 Toggle::make('Toggle')->color('green'),
-            
+
+# You can choose a color from one of the below:
+- green
+- blue
+- cyan
+- red
+- orange
+         
 ```
 
 <img src="https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image1.png" width="500">
 
-<img src="https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image2.png" width="200">
+<img src="https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image2.png" width="500">
 
 <img src="https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image3.png" width="500">
 
