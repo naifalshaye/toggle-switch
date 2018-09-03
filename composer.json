@@ -1,6 +1,6 @@
 {
     "name": "naif/toggle",
-    "description": "A Laravel Nova field.",
+    "description": "A Laravel Nova toggle switch field",
     "keywords": [
         "laravel",
         "nova"
