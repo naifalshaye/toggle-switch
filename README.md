@@ -17,8 +17,8 @@ Add the below to Nova/User.php resource:
 Toggle::make('Toggle')->color('green'),
             
 ```
+<img src="https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image1.png" width="300">
 
-![Package screenshot](https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image1.png =250x)
 ![Package screenshot](https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image2.png)
 ![Package screenshot](https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image3.png)
 ![Package screenshot](https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image4.png)
