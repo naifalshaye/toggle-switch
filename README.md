@@ -25,6 +25,8 @@ Toggle::make('Toggle')->color('green'),
          
 ```
 
+<img src="https://github.com/naifalshaye/toggle-switch/blob/master/screenshots/colors.png" width="142">
+
 <img src="https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image1.png" width="500">
 
 <img src="https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image2.png" width="500">
