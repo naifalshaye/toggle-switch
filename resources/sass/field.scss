@@ -1,0 +1,116 @@
+// Nova Tool CSS
+.dot_off {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot_on {
+  height: 20px;
+  width: 20px;
+  background-color: #58AC04;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+input.green {
+  position: relative;
+  appearance: none; outline: none;
+  width: 50px; height: 30px;
+  background-color: #ffffff; border: 1px solid #D9DADC;
+  border-radius: 50px; box-shadow: inset -20px 0 0 0 #fff;
+  transition-duration: 200ms;
+}
+input.green:after {
+  content: "";
+  position: absolute;
+  top: 1px; left: 1px;
+  width: 26px; height: 26px;
+  background-color: transparent;
+  border-radius: 50%; box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+}
+input.green:checked {
+  border-color: #4ED164;
+  box-shadow: inset 20px 0 0 0 #4ED164;
+}
+input.green:checked:after {
+  left: 20px;
+  box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
+}
+
+input.blue {
+  position: relative;
+  appearance: none; outline: none;
+  width: 50px; height: 30px;
+  background-color: #ffffff; border: 1px solid #D9DADC;
+  border-radius: 50px; box-shadow: inset -20px 0 0 0 #fff;
+  transition-duration: 200ms;
+}
+input.blue:after {
+  content: "";
+  position: absolute;
+  top: 1px; left: 1px;
+  width: 26px; height: 26px;
+  background-color: transparent;
+  border-radius: 50%; box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+}
+input.blue:checked {
+  border-color: #2C9FFF;
+  box-shadow: inset 20px 0 0 0 #2C9FFF;
+}
+input.blue:checked:after {
+  left: 20px;
+  box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
+}
+
+input.orange {
+  position: relative;
+  appearance: none; outline: none;
+  width: 50px; height: 30px;
+  background-color: #ffffff; border: 1px solid #D9DADC;
+  border-radius: 50px; box-shadow: inset -20px 0 0 0 #fff;
+  transition-duration: 200ms;
+}
+input.orange:after {
+  content: "";
+  position: absolute;
+  top: 1px; left: 1px;
+  width: 26px; height: 26px;
+  background-color: transparent;
+  border-radius: 50%; box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+}
+input.orange:checked {
+  border-color: #FF5B2E;
+  box-shadow: inset 20px 0 0 0 #FF5B2E;
+}
+input.orange:checked:after {
+  left: 20px;
+  box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
+}
+
+input.cyan {
+  position: relative;
+  appearance: none; outline: none;
+  width: 50px; height: 30px;
+  background-color: #ffffff; border: 1px solid #D9DADC;
+  border-radius: 50px; box-shadow: inset -20px 0 0 0 #fff;
+  transition-duration: 200ms;
+}
+input.cyan:after {
+  content: "";
+  position: absolute;
+  top: 1px; left: 1px;
+  width: 26px; height: 26px;
+  background-color: transparent;
+  border-radius: 50%; box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+}
+input.cyan:checked {
+  border-color: #52b7d7;
+  box-shadow: inset 20px 0 0 0 #52b7d7;
+}
+input.cyan:checked:after {
+  left: 20px;
+  box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
+}
+
