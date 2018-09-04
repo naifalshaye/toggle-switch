@@ -9,3 +9,4 @@ phpunit.xml
 .DS_Store
 Thumbs.db
 /screenshots
+/mix-manifest.json

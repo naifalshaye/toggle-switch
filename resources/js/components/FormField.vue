@@ -74,6 +74,11 @@ export default {
             this.is_code = false;
             return this.color;
         }
+    },
+    created: function(){
+        if (!this.field.color) {
+            this.field.color = '#43D559';
+        }
     }
 }
 </script>
