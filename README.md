@@ -22,6 +22,9 @@ Toggle::make('Toggle')->color('green'),
 - cyan
 - red
 - orange
+
+Or you can just put the color's code
+Toggle::make('Toggle')->color('#7e3d2f'),
          
 ```
 
