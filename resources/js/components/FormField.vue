@@ -2,7 +2,8 @@
     <default-field :field="field">
         <template slot="field">
             <input :id="field.name" type="checkbox"
-                   :class="this.field.color"
+                   :class="custom_color(this.field.color)"
+                   :style.checked="getCustomStyle()"
                    :placeholder="field.name"
                    v-model="value"
                    v-bind:true-value="1" v-bind:false-value="0"
@@ -25,14 +26,25 @@ export default {
 
     props: ['resourceName', 'resourceId', 'field'],
 
-    data: {
-
+    data: function (){
+        return {
+            is_code: false,
+        }
     },
 
     computed: {
 
     },
     methods: {
+        getCustomStyle() {
+            if(this.value){
+                if(this.is_code == true){
+                    return "color : " + this.field.color + "; border-color :" + this.field.color
+                }
+            }
+
+            return ""
+        },
         /*
          * Set the initial, internal value for the field.
          */
@@ -52,6 +64,15 @@ export default {
          */
         handleChange(value) {
           this.value = value
+        },
+
+        custom_color(color) {
+            if(color.indexOf("#") === 0) {
+                this.is_code = true
+                return 'custom-color';
+            }
+            this.is_code = false;
+            return this.color;
         }
     }
 }
