@@ -14,8 +14,6 @@ Add the below to Nova/User.php resource:
 
 ```php
 
-Toggle::make('Toggle')->color('green'),
-
 # You can set the toggle swhich color by color code
 Toggle::make('Toggle')->color('#7e3d2f'),
          
