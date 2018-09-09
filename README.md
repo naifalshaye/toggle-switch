@@ -29,6 +29,10 @@ Toggle::make('Toggle')->color('#7e3d2f'),
 
 <img src="https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image4.png" width="500">
 
+## Support:
+naif@naif.io
+
+https://www.linkedin.com/in/naif
 
 ## License
 
