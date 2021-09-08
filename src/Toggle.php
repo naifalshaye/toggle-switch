@@ -20,4 +20,17 @@ class Toggle extends Field
         ]);
     }
 
+    public function onColor($on_color)
+    {
+        return $this->withMeta([
+            'on_color' => $on_color
+        ]);
+    }
+
+    public function offColor($off_color)
+    {
+        return $this->withMeta([
+            'off_color' => $off_color
+        ]);
+    }
 }
