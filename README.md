@@ -1,5 +1,8 @@
 ## Nova Toggle Switch Field
 
+##### * Toggle Switch Field for Nova 4 go to
+https://github.com/naifalshaye/toggle-switch-field
+
 A Laravel Nova toggle switch field
 ## Installation
 

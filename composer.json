@@ -1,11 +1,23 @@
 {
     "name": "naif/toggle",
-    "description": "A Laravel Nova toggle switch field",
+    "description": "A Laravel Nova toggle switch field for Nova 3",
     "keywords": [
         "laravel",
-        "nova"
+        "nova3",
+        "field",
+        "fields",
+        "toggle",
+        "switch",
+        "toggle-switch"
     ],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Naif Alshaye",
+            "email": "naif@naif.io",
+            "homepage": "https://www.naif.io"
+        }
+    ],
     "require": {
         "php": ">=7.1.0"
     },
